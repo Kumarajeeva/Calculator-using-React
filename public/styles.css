@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(to left,#694E4E,#F3C5C5);
+}
+
+h1{
+    margin-top: 2rem;
+    text-align: center;
+    color: #0c0103;
+}
+
+.calculator-layout{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
+    justify-content: center;
+}
+
+.two-block{
+    grid-column: span 2;
+}
+
+.display-box{
+    grid-column: 1/-1;
+    display: flex;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: black;
+    opacity: 0.75;
+    padding: 0.75rem;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.calculator-layout > button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid rgba(87, 83, 83, 0.75);
+    background-color: thistle;
+}
+
+.calculator-layout > button:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.calculator-layout > button:focus{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.display-box .previous-number{
+    color: white;
+    opacity: 0.85;
+    font-size: 1.5rem;
+}
+
+.display-box .current-number{
+    color: white;
+    font-size: 2.25rem;
+}
