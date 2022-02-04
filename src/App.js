@@ -105,6 +105,9 @@ function reducer(state, {type, payload}){
         currentNumber: calculate(state),
         overwrite: true
       }
+
+    default:
+      return
   }
 }
 
@@ -127,6 +130,8 @@ function calculate({currentNumber,previousNumber,operator}){
     case "÷":
       result=prev/current;
       break 
+    default:
+      return
   }
   return result.toString()
 }
