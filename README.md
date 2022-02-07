@@ -1,4 +1,4 @@
-Deplyed websites URL: https://kumarajeeva-calculator-react.netlify.app/  
+Deployed website URL: https://kumarajeeva-calculator-react.netlify.app/  
 
 DEVELOPING A CALCULATOR USING REACT.JS
 
