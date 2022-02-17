@@ -1,4 +1,4 @@
-#CALCULATOR USING REACT.JS
+# CALCULATOR USING REACT.JS
 
 Check the deployed website in this URL:  https://kumarajeeva-calculator-react.netlify.app/
 
